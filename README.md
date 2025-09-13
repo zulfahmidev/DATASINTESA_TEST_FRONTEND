@@ -1,6 +1,6 @@
 # Frontend Technical Test Datasintesa - Zulfahmi
 
-Hasil teknikal tes perusahaan Datasintesa oleh Zulfahmi.
+Hasil teknikal tes sebagai Fullstack Developer di perusahaan Datasintesa oleh Zulfahmi.
 
 ## Instalasi
 
