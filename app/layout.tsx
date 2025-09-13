@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./(assets)/globals.css";
 import Navbar from "./navbar";
+import { Suspense } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +32,9 @@ export default function RootLayout({
         <div className="container mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
           <Navbar />
           <main className="p-5 bg-blue-50">
-            {children}
+            <Suspense fallback={<div>Loading...</div>}>
+                {children}
+            </Suspense>
           </main>
           <footer className="py-5 text-center text-sm text-blue-500">
             Copyright &copy;2025 Zulfahmidev.

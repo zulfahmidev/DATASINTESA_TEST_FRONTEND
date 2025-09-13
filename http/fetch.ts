@@ -2,7 +2,7 @@
 
 import { APIResponse } from "./rest";
 
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY || 'http://localhost:1337';
+const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
 
 export async function Fetch(
     path: string = '',

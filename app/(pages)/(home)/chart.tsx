@@ -51,7 +51,7 @@ export default function Chart() {
 
     useEffect(() => {
         loadGraphData()
-    })
+    }, [])
 
     const labels = data.map((d) => new Date(d.resultTime).toUTCString());
 

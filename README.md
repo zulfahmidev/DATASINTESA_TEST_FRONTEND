@@ -2,32 +2,22 @@
 
 Hasil teknikal tes sebagai Fullstack Developer di perusahaan Datasintesa oleh Zulfahmi.
 
-## Instalasi
+## Project setup
 
-1. Pertama, install proyek:
+1. Pertama, install proyek dengan perintah berikut:
 
     ```bash
     npm install
-    # or
-    yarn
-    # or
-    pnpm install
-    # or
-    bun install
     ```
-2. Buat file `.env` dan isikan seperti dibawah:
+2. Buat file `.env` dan isikan seperti dibawah atau sesuaikan:
 
     ```properties
     NEXT_PUBLIC_API_URL=http://localhost:8000
     ```
-3. Then, run the development server:
+3. Jalankan proyek dengan perintah berikut:
 
     ```bash
     npm run dev
     # or
-    yarn dev
-    # or
-    pnpm dev
-    # or
-    bun dev
+    npm start
     ```
